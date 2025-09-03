@@ -1,0 +1,98 @@
+/* Main app container */
+/* ===== New Styles ===== */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.recommendations-container {
+  margin-top: 2rem;
+  text-align: left;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.song-item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.youtube-link {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.youtube-link:hover {
+  text-decoration: underline;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Recommendation list styling */
+.recommendations {
+  margin-top: 2rem;
+  text-align: left;
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Song items */
+.recommendations div {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* YouTube links */
+.recommendations a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.recommendations a:hover {
+  text-decoration: underline;
+}
+
+/* Error/Success message styling */
+.error-message {
+  color: #dc3545; /* Red */
+  font-weight: bold;
+  padding: 0.5rem;
+  background: #f8d7da;
+  border-radius: 4px;
+}
+
+.success-message {
+  color: #28a745; /* Green */
+  padding: 0.5rem;
+}
+
+/* Input form */
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background: #1db954; /* Spotify green */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+# Core & Backend
+flask==3.0.2                  # Modern Flask with Python 3.12 support
+flask-cors==4.0.0             # CORS middleware
+flask-sqlalchemy==3.1.1       # SQLAlchemy integration (updated for Flask 3.x)
+python-dotenv==1.0.1          # Environment variables
+
+# Database & APIs
+sqlalchemy==2.0.28            # ORM with Python 3.12 support
+requests==2.31.0              # HTTP client (Last.fm/YouTube APIs)
+
+# Machine Learning & Data
+numpy==1.26.4                 # Core numerical library (Python 3.12+ optimized)
+pandas==2.2.1                 # Data manipulation (requires NumPy 1.23+)
+scikit-learn==1.4.2           # ML toolkit (works with NumPy 1.26+)
+tensorflow==2.16.1            # Deep learning (Python 3.12 compatible)
+protobuf==4.25.3              # Required for TensorFlow
+
+# NLP & Text Processing
+spacy==3.7.4                  # NLP pipeline
+en-core-web-sm==3.7.1         # Spacy model (match version with spacy)
+nltk==3.8.1                   # Text processing
+transformers==4.40.1          # Optional: For advanced NLP (Hugging Face)
+
+# Build & Deployment
+setuptools==70.0.0            # Package builder
+wheel==0.43.0                 # Wheel format support
+gunicorn==21.2.0              # Production server (optional)
+
+# Utilities
+joblib==1.4.0                 # Scikit-learn dependency
+typing-extensions>=4.12.2     # Type hints support
