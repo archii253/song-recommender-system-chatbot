@@ -26,7 +26,7 @@ Database: SQLite / MySQL
 ## ⚙️ Setup  
 
 ### 1️⃣ Clone the Repository  
-git clone https://github.com/your-username/song-recommender-system-chatbot.git
+git clone https://github.com/archii253/song-recommender-system-chatbot.git
 cd song-recommender-system-chatbot
 
 ### 2️⃣ Backend (Flask)
@@ -47,3 +47,4 @@ npm run dev
 backend/   → Flask API + ML/NLP models  
 frontend/  → React + Tailwind chatbot UI  
 ml_models/ → Pre-trained recommendation models  
+
