@@ -16,11 +16,8 @@ Built with **Flask (Python)** for backend, **React + Tailwind CSS** for frontend
 ## 🛠️ Tech Stack
 
 Frontend: React, Tailwind CSS
-
 Backend: Flask, Python
-
 ML/NLP: Scikit-learn, NLTK
-
 Database: SQLite / MySQL
 
 ## ⚙️ Setup  
@@ -47,4 +44,5 @@ npm run dev
 backend/   → Flask API + ML/NLP models  
 frontend/  → React + Tailwind chatbot UI  
 ml_models/ → Pre-trained recommendation models  
+
 
